@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/store.css">
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="js/gnb.js"></script>
+  <title>McDonald's</title>
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="header_wrap">
+      <h1 class="logo"><a href="index.html">McDonald's</a></h1>
+      <nav class="gnb">
+        <h2 class="hide">주요메뉴</h2>
+        <ul>
+          <li class="menu1"><a href="burger.html">MENU</a>
+            <ul class="menu_sub">
+              <li><a href="burger.html">버거</a></li>
+              <li><a href="#">맥런치</a></li>
+              <li><a href="#">맥모닝</a></li>
+              <li><a href="#">해피스낵</a></li>
+              <li><a href="#">사이드&디저트</a></li>
+              <li><a href="#">맥카페&음료</a></li>
+              <li><a href="#">해피밀</a></li>
+            </ul>
+          </li>
+
+          <li class="menu2"><a href="store.html">STORE</a>
+            <ul class="menu_sub">
+              <li><a href="#">매장찾기</a></li>
+              <li><a href="#">맥딜리버리</a></li>
+              <li><a href="#">맥드라이브</a></li>
+              <li><a href="#">임차문의</a></li>
+            </ul>
+          </li>
+
+          <li class="menu3"><a href="promotion.html">WHAT'S NEW</a>
+            <ul class="menu_sub">
+              <li><a href="promotion.html">프로모션</a></li>
+              <li><a href="#">새로운 소식</a></li>
+              <li><a href="#">이달의 해피밀</a></li>
+            </ul>
+          </li>
+
+          <li class="menu4"><a href="#">STORY</a>
+            <ul class="menu_sub">
+              <li><a href="#">브랜드 소개</a></li>
+              <li><a href="#">사회적 책임</a></li>
+              <li><a href="#">경쟁력&사람들</a></li>
+            </ul>
+          </li>
+
+          <li class="menu5">
+            <a href="#" class="more">+</a>
+            <ul class="menu_sub">
+              <li><a href="login.html">로그인</a></li>
+              <li><a href="join.html">회원가입</a></li>
+              <li><a href="#">ENG</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+    <div class="nav_bg"></div>
+
+  </header>
+
+  <main class="content">
+    <section class="top_wrap">
+      <div class="top">
+        <h2 class="hide">store</h2>
+        <div class="top_detail">
+          <p class="top_name">매장찾기</p>
+          <p class="top_name_eng">Store</p>
+          <p class="top_exp">24시간, 맥딜리버리, 맥드라이브 등<br>
+            원하는 항목을 선택해 가까운 매장을 찾아보세요!</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="store">
+      <h2>Store</h2>
+      <section class="store_check">
+        <span class="checkbox">
+          <input type="checkbox" id="check1" value="맥딜리버리">
+          <label for="check1">맥딜리버리</label>
+        </span>
+        <span class="checkbox">
+          <input type="checkbox" id="check2" value="맥드라이브">
+          <label for="check2">맥드라이브</label>
+        </span>
+        <span class="checkbox">
+          <input type="checkbox" id="check3" value="24시간">
+          <label for="check3">24시간</label>
+        </span>
+        <span class="checkbox">
+          <input type="checkbox" id="check4" value="디카페인">
+          <label for="check4">디카페인</label>
+        </span>
+        <span class="checkbox">
+          <input type="checkbox" id="check5" value="맥모닝">
+          <label for="check5">맥모닝</label>
+        </span>
+        <span class="checkbox">
+          <input type="checkbox" id="check6" value="주차">
+          <label for="check6">주차</label>
+        </span>
+      </section>
+
+      <div class="store_search">
+        <form class="box">
+          <fieldset>
+            <legend>검색</legend>
+            <label for="store">입력</label>
+            <input type="text" name="" id="store" placeholder="매장명, 동명, 도로명을 입력하세요.">
+            <input type="submit" class="search_btn" value="Search">
+            <input type="submit" class="map_btn" value="Map">
+          </fieldset>
+        </form>
+      </div>
+      <p class="store_search_result">검색결과</p>
+
+    </section>
+
+
+
+  </main>
+
+  <footer>
+    <div class="site">
+      <h2>사이트 이용안내</h2>
+      <div class="info">
+        <p>한국맥도날드(유)</p>
+        <p>대표이사: 앤토니 마티네즈</p>
+        <p>사업자등록번호: 101-81-26409</p>
+        <p>전화주문: 1600-5252</p>
+        <p>COPYRIGHT © 2019 ALL RIGHTS RESERVED BY McDonald's.</p>
+      </div>
+
+      <div class="term">
+        <div class="term1">
+          <h3 class="hide">약관 및 정책</h3>
+          <ul>
+            <li><a href="#">개인정보 처리방침</a></li>
+            <li><a href="#">위치정보 이용약관</a></li>
+            <li><a href="#">사이트맵</a></li>
+          </ul>
+        </div>
+
+        <div class="term2">
+          <h3 class="hide">문의</h3>
+          <ul>
+            <li><a href="#">임차문의</a></li>
+            <li><a href="#">고객문의</a></li>
+            <li><a href="#">인재채용</a></li>
+          </ul>
+        </div>
+
+        <div class="term3">
+          <h3 class="hide">커뮤니케이션</h3>
+          <ul>
+            <li><a href="https://www.facebook.com/McDonaldsKorea" target="_blank">페이스북</a></li>
+            <li><a href="https://www.instagram.com/mcdonalds_kr/" target="_blank">인스타그램</a></li>
+            <li><a href="https://www.youtube.com/user/McDonaldsKor" target="_blank">유튜브</a></li>
+            <li><a href="https://story.kakao.com/ch/mcdonalds/feed" target="_blank">카카오스토리</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

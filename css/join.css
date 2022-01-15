@@ -1,0 +1,461 @@
+
+span {
+  font-size: 14px;
+  color: #1f1fb2;
+  padding-top: 10px;
+}
+
+@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+div,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.hide {
+  position: absolute;
+  left: -9999px;
+  top: -999px;
+}
+
+/*** header ***/
+.header {
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  background: url(../images/bg_header.jpg) repeat-x center;
+  position: relative;
+  z-index: 10;
+}
+
+.header_wrap {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  z-index: 5;
+}
+
+
+.logo {
+  width: 278px;
+  height: 44px;
+  background: url(../images/logo.png) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin: 30px auto 40px;
+}
+
+.logo a {
+  display: block;
+  height: 100%;
+}
+
+.gnb {
+  width: 680px;
+  float: right;
+  margin-top: 40px;
+}
+
+.gnb>ul>li {
+  float: left;
+  position: relative;
+}
+
+.gnb>ul>li>a {
+  display: block;
+}
+
+.gnb>ul>li>ul>li>a {
+  font-size: 16px;
+  font-weight: 500px;
+  color: #000;
+  display: block;
+  margin: 15px auto 0;
+}
+
+.gnb ul ul {
+  padding-top: 10px;
+  width: 100%;
+  display: none;
+  position: absolute;
+}
+
+.menu5 .menu_sub{
+  width: 70px;
+}
+
+.nav_bg {
+  width: 100%;
+  height: 420px;
+  background-color: #ffffff;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+
+.menu1 {
+  width: 100px;
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.menu1 a {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.menu1>ul>li>a {
+  font-weight: 500;
+}
+
+
+.menu2 {
+  width: 100px;
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.menu2 a {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.menu2>ul>li>a {
+  font-weight: 500;
+}
+
+
+.menu3 {
+  width: 150px;
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.menu3 a {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.menu3>ul>li>a {
+  font-weight: 500;
+}
+
+
+.menu4 {
+  width: 100px;
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.menu4 a {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.menu4>ul>li>a {
+  font-weight: 500;
+}
+
+.menu5 {
+  margin-left: 0px;
+  float: left;
+}
+
+.menu5>ul>li>a {
+  width: 60px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.more {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin-left: 13px;
+}
+
+.prm_img {
+  float: left;
+  margin-top: 40px;
+  margin-left: 0;
+
+}
+
+.menu_sub a {
+  font-size: 16px;
+  font-weight: 500px;
+  display: block;
+}
+
+.menu_sub a:after { 
+  display:block;
+  content: '';
+  border-bottom: solid 3px #faba18;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+.menu_sub>li>a:hover:after { transform: scaleX(1); }
+
+.menu_sub>li>a:after{ transform-origin:0% 50%; }
+
+
+/*** main ***/
+
+.content{
+  position: relative;
+  z-index: 1;
+}
+
+.top_wrap {
+  height: 274px;
+  background: url(../images/bg_join.jpg) no-repeat center;
+}
+
+.top {
+  width: 1142px;
+  margin: auto;
+  clear: both;
+}
+
+.top_detail {
+  width: 1142px;
+  margin: auto;
+  padding-top: 73px;
+}
+
+.top_name {
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.top_name_eng {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+fieldset {
+  width: 1150px;
+  height: 1080px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 60px auto;
+}
+
+.form_wrap {
+  width: 700px;
+  margin: auto;
+}
+
+legend {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+form p {
+  margin-top: 30px;
+
+}
+
+.form_item {
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  height: 60px;
+  float: left;
+  padding-top: 20px;
+}
+
+input {
+  width: 520px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #000;
+  font-size: 18px;
+  padding-left: 10px;
+
+}
+
+.form_id {
+  width: 400px;
+  margin-right: 10px;
+}
+
+.form_btn {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #1f1fb2;
+  text-align: center;
+  line-height: 2;
+  width: 110px;
+  height: 40px;
+  border: 3px solid #1f1fb2;
+  border-radius: 50px;
+}
+
+.form_btn:hover {
+  cursor: pointer;
+  transition: .2s ease;
+  background-color: #1f1fb2;
+  color: #fff;
+}
+
+.form_email {
+  width: 200px;
+}
+
+.form_addr1 {
+  width: 400px;
+  margin-right: 10px;
+
+}
+
+.form_addr2 {
+  margin-top: -50px;
+
+}
+
+.sms {
+  font-size: 18px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.check_sms {
+  width: 24px;
+  height: 24px;
+}
+
+.join_c {
+  width: 180px;
+  margin: 30px auto;
+}
+
+.btn_join {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #1f1fb2;
+  text-align: center;
+  line-height: 2.8;
+  width: 180px;
+  height: 70px;
+  border: 3px solid #1f1fb2;
+  border-radius: 50px;
+  margin: 30px auto;
+}
+
+.btn_join:hover {
+  cursor: pointer;
+  transition: .2s ease;
+  background-color: #1f1fb2;
+  color: #fff;
+}
+
+
+/*** footer ***/
+
+footer {
+  width: 100%;
+  background-color: #050505;
+  height: 400px;
+  color: #fff;
+
+}
+
+footer a {
+  color: #fff;
+}
+
+.site h2 {
+  width: 128px;
+  height: 98px;
+  background: url(../images/logo_site.png) no-repeat;
+  text-indent: -9999px;
+  /* position: absolute; */
+  margin: auto;
+}
+
+.site {
+  width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.info {
+  float: left;
+  margin-top: 92px;
+}
+
+.term {
+  float: right;
+}
+
+.term1 {
+  float: left;
+  margin-top: 92px;
+  margin-right: 80px;
+
+}
+
+.term2 {
+  float: left;
+  margin-top: 92px;
+  margin-right: 80px;
+
+}
+
+.term3 {
+  float: left;
+  margin-top: 92px;
+
+}

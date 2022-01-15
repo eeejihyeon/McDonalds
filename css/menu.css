@@ -1,0 +1,600 @@
+@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+div,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.hide {
+  position: absolute;
+  left: -9999px;
+  top: -999px;
+}
+
+/*** header ***/
+.header {
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  background: url(../images/bg_header.jpg) repeat-x center;
+  position: relative;
+  z-index: 10;
+}
+
+.header_wrap {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  z-index: 5;
+}
+
+
+.logo {
+  width: 278px;
+  height: 44px;
+  background: url(../images/logo.png) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin: 30px auto 40px;
+}
+
+.logo a {
+  display: block;
+  height: 100%;
+}
+
+.gnb {
+  width: 680px;
+  float: right;
+  margin-top: 40px;
+}
+
+.gnb>ul>li {
+  float: left;
+  position: relative;
+}
+
+.gnb>ul>li>a {
+  display: block;
+}
+
+.gnb>ul>li>ul>li>a {
+  font-size: 16px;
+  font-weight: 500px;
+  color: #000;
+  display: block;
+  margin: 15px auto 0;
+}
+
+.gnb ul ul {
+  padding-top: 10px;
+  width: 100%;
+  display: none;
+  position: absolute;
+}
+
+.menu5 .menu_sub{
+  width: 70px;
+}
+
+.nav_bg {
+  width: 100%;
+  height: 420px;
+  background-color: #ffffff;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+
+.menu1 {
+  width: 100px;
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.menu1 a {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.menu1>ul>li>a {
+  font-weight: 500;
+}
+
+
+.menu2 {
+  width: 100px;
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.menu2 a {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.menu2>ul>li>a {
+  font-weight: 500;
+}
+
+
+.menu3 {
+  width: 150px;
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.menu3 a {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.menu3>ul>li>a {
+  font-weight: 500;
+}
+
+
+.menu4 {
+  width: 100px;
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.menu4 a {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.menu4>ul>li>a {
+  font-weight: 500;
+}
+
+.menu5 {
+  margin-left: 0px;
+  float: left;
+}
+
+.menu5>ul>li>a {
+  width: 60px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.more {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin-left: 13px;
+}
+
+.prm_img {
+  float: left;
+  margin-top: 40px;
+  margin-left: 0;
+
+}
+
+.menu_sub a {
+  font-size: 16px;
+  font-weight: 500px;
+  display: block;
+}
+
+.menu_sub a:after { 
+  display:block;
+  content: '';
+  border-bottom: solid 3px #faba18;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+.menu_sub>li>a:hover:after { transform: scaleX(1); }
+
+.menu_sub>li>a:after{ transform-origin:0% 50%; }
+
+
+
+/*** main ***/
+.content{
+  position: relative;
+  z-index: 1;
+}
+
+.top_wrap {
+  height: 550px;
+  background: url(../images/bg_top_burger.jpg) no-repeat center;
+}
+
+.top {
+  width: 1142px;
+  margin: auto;
+}
+
+.top_detail {
+  width: 1142px;
+  margin: 0 auto 70px;
+  padding-top: 243px;
+clear: both;
+}
+
+.top_name {
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.top_name_eng {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+.top_exp {
+  color: #fff;
+  font-size: 18px;
+  float: left;
+
+}
+
+.menu_search {
+  width: 350px;
+  position: relative;
+  float: right;
+  margin-right: 45px;
+  display: block;
+}
+
+legend {
+  display: none;
+}
+
+label {
+  display: none;
+}
+
+fieldset{
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  width: 350px;
+  height: 50px;
+  float: left;
+  font-size: 18px;
+  padding: 0 20px;
+  position: relative;
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 60px;
+  top: -20px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#menu {
+  width: 300px;
+  height: 30px;
+  border: 0 none;
+  margin-top: 9px;
+  /* font-size: 18px; */
+}
+
+.search_btn {
+  width: 50px;
+  height: 50px;
+  background-image: url(../images/btn_search_menu.png);
+  text-indent: -9999px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  position: absolute;
+  display: block;
+  float: left;
+  right: 5px;
+  top: 0;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+
+.menu_wrap {
+  width: 1200px;
+  margin: 40px auto 80px;
+
+}
+
+.menu_wrap h2 {
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.menu_sel {
+position: relative;
+
+}
+
+.sel_btn {
+width: 130px;
+height: 45px;
+border: 3px solid#1f1fb2;
+background-color: #fff;
+border-radius: 50px;
+float: left;
+margin-right: 20px;
+margin-bottom: 30px;
+display: block;
+font-size: 18px;
+font-weight: 500;
+color: #1f1fb2;
+text-align: center;
+line-height: 2.6;
+cursor: pointer;
+}
+
+.menu {
+  width: 1200px;
+  }
+
+
+.menu_scroll {
+  width: 200px;
+  float: right;
+  display: block;
+  position: relative;
+  padding-top: 20px;
+}
+
+
+.menu_scroll span {
+  float: left;
+  margin-right: 8px;
+}
+
+.menu_btn {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;;
+  border-radius: 50px;
+  background-color: #eaeaea;
+  margin-left: 12px;
+  float: left;
+  cursor: pointer;
+}
+
+.menu_list {
+clear: both;
+width: 1200px;
+margin: auto;
+}
+
+.product1 {
+  width: 284px;
+  height: 320px;
+  background-color: #fff;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+  margin-right: 21px;
+  margin-bottom: 30px;
+  float: left;
+  display: block;
+  position: relative;
+}
+
+
+.product2 {
+  width: 284px;
+  height: 320px;
+  background-color: #fff;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+  margin-right: 21px;
+  margin-bottom: 30px;
+  float: left;
+  display: block;
+  position: relative;
+
+}
+
+
+.product3 {
+  width: 284px;
+  height: 320px;
+  background-color: #fff;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+  margin-right: 21px;
+  margin-bottom: 30px;
+  float: left;
+  display: block;
+  position: relative;
+
+}
+
+.product4 {
+  width: 284px;
+  height: 320px;
+  background-color: #fff;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+  /* margin-right: 21px; */
+  margin-bottom: 30px;
+  float: left;
+  display: block;
+  position: relative;
+}
+
+
+.product5 {
+  width: 284px;
+  height: 320px;
+  background-color: #fff;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+  margin-right: 21px;
+  float: left;
+  display: block;
+  position: relative;
+
+}
+
+.product6 {
+  width: 284px;
+  height: 320px;
+  background-color: #fff;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+  margin-right: 21px;
+  float: left;
+  display: block;
+  position: relative;
+}
+
+.product7 {
+  width: 284px;
+  height: 320px;
+  background-color: #fff;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+  margin-right: 21px;
+  float: left;
+  display: block;
+  position: relative;
+}
+
+.product8 {
+  width: 284px;
+  height: 320px;
+  background-color: #fff;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+  float: left;
+  display: block;
+  position: relative;
+}
+
+.menu_list img{
+  width: 212px;
+  margin: 44px 36px 10px;
+}
+
+.name .ko{
+  font-size:18px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 5px;
+  margin-left: 20px; 
+  position: absolute;
+}
+
+.name .en{
+  font-size:14px;
+  font-weight: 300;
+  color: #000;
+  margin-left: 20px;
+  float: left;
+  position: absolute;
+  bottom: 25px;
+}
+
+.info_icon {
+  width: 34px;
+  height: 34px;
+  background: url(../images/icon_info.png) no-repeat;
+  text-indent: -9999px;
+  position: absolute;
+  float: right;
+  right: 20px;
+  bottom: 32px;
+}
+
+
+/*** footer ***/
+
+footer {
+  clear: both;
+  background-color: #050505;
+  height: 400px;
+  color: #fff;
+
+}
+
+footer a {
+  color: #fff;
+}
+
+.site h2 {
+  width: 128px;
+  height: 98px;
+  background: url(../images/logo_site.png) no-repeat;
+  text-indent: -9999px;
+  /* position: absolute; */
+  margin: auto;
+}
+
+.site {
+  width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.info {
+  float: left;
+  margin-top: 92px;
+}
+
+.term {
+  float: right;
+}
+
+.term1 {
+  float: left;
+  margin-top: 92px;
+  margin-right: 80px;
+
+}
+
+.term2 {
+  float: left;
+  margin-top: 92px;
+  margin-right: 80px;
+
+}
+
+.term3 {
+  float: left;
+  margin-top: 92px;
+
+}

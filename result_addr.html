@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"역삼동"의 검색결과</title>
+    <style>
+        body,
+        button {
+            font-size: 16px
+        }
+
+        .txt {
+            display: inline-block;
+            width: 120px;
+        }
+
+        .btn {
+            background: #fff;
+            border: 1px solid #999;
+            font-size: 14px;
+            padding: 4px 10px;
+        }
+
+        input {
+            border: 1px solid #999;
+            font-size: 14px;
+            padding: 5px 10px;
+        }
+    </style>
+    <script type="text/javascript">
+        function return_addr(addr) {
+            opener.document.getElementById("address").value = addr;
+            window.close();
+        };
+    </script>
+</head>
+
+<body>
+    <p>
+        입력하신 <span class="able">"역삼동"</span> 검색 결과입니다.
+    </p>
+    <hr>
+    <p class="addr" onclick="return_addr('서울 강남구 강남대로 123 (푸르덴셜타워)')">
+        <a href="#">
+            06253 서울 강남구 강남대로 123 (푸르덴셜타워)
+        </a>
+    </p>
+    <p class="addr" onclick="return_addr('서울 강남구 서초대로 456 (동희빌딩)')">
+        <a href="#">
+            12343 서울 강남구 서초대로 456 (동희빌딩)
+        </a>
+    </p>
+    <p class="addr" onclick="return_addr('서울 강남구 테헤란로 789')">
+        <a href="#">
+            56789 서울 강남구 테헤란로 789
+        </a>
+    </p>
+</body>
+
+</html>
