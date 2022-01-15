@@ -1,0 +1,22 @@
+gnb 마우스오버시 nav_bg 창 늘어남 현상 (gnb - ul - ul - li)
+: css에서 .gnb ul ul {position: absolute; left: 0; top: 40px;} 삭제, 해결
+
+gnb 마우스오버시 배경 갈라지면서 내려옴 현상
+:
+
+gnb 마우스오버시 홈페이지 컨텐트 같이 내려감 현상
+:
+
+-----------------------------------------------------------------------
+t 피드백
+
+index.css, index.js에서 
+/******* 01.05 *******/ 찾아보세요~
+
+원래는 header에 높이, position, z-index 
++ main에 position, z-index만 있어도 고정되어야 하는데 
+gnb 의 서브 ul의 높이가 바뀌면서 자꾸 아래로 밀어내내요.
+
+해결 방법은 position:absolute 추가하기!!
+
+스크립트는 mouseleave 일때 css들이 slide가 완료된 다음에 변경되면 더 자연스러워요~
