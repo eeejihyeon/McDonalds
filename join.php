@@ -12,8 +12,8 @@
   <script type="text/javascript">
     function form_check() {
 
-      var uname = document.getElementById("uname");
-      var uid = document.getElementById("uid");
+      var uname = document.getElementById("u_name");
+      var uid = document.getElementById("u_id");
       var pwd = document.getElementById("pwd");
       var rpwd = document.getElementById("rpwd");
       var mobile = document.getElementById("mobile");
@@ -186,17 +186,17 @@
         <div class="form_wrap">
           <legend>기본정보 입력</legend>
           <p>
-            <label for="uname" class="form_item">이름</label>
+            <label for="u_name" class="form_item">이름</label>
 
-            <input type="text" name="uname" id="uname">
+            <input type="text" name="u_name" id="u_name">
             <br>
             <span class="err_name"></span>
           </p>
 
 
           <p>
-            <label for="uid" class="form_item">아이디</label>
-            <input type="text" name="uid" id="uid" class="form_id">
+            <label for="u_id" class="form_item">아이디</label>
+            <input type="text" name="u_id" id="u_id" class="form_id">
             <button type="button" class="form_btn" onclick="id_search()">중복 확인</button>
             <br>
             <span class="err_id"></span>
@@ -243,12 +243,12 @@
 
           <p>
             <label class="form_item">주소</label>
-            <input type="text" name="" id="" class="form_addr1">
+            <input type="text" name="address1" id="address1" class="form_addr1">
             <button type="button" name="" id="" class="form_btn">주소 검색</button>
           </p>
           <p>
             <label class="form_item"></label>
-            <input type="text" name="" id="" class="form_addr2">
+            <input type="text" name="address2" id="address2" class="form_addr2">
           </p>
 
           <!-- <p>

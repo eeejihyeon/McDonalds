@@ -1,7 +1,7 @@
 @import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
 * {
-  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
   font-size: 16px;
   line-height: 1.5;
 }
@@ -55,7 +55,6 @@ address {
   z-index: 5;
 }
 
-
 .logo {
   width: 278px;
   height: 44px;
@@ -76,16 +75,16 @@ address {
   margin-top: 40px;
 }
 
-.gnb>ul>li {
+.gnb > ul > li {
   float: left;
   position: relative;
 }
 
-.gnb>ul>li>a {
+.gnb > ul > li > a {
   display: block;
 }
 
-.gnb>ul>li>ul>li>a {
+.gnb > ul > li > ul > li > a {
   font-size: 16px;
   font-weight: 500px;
   color: #000;
@@ -100,7 +99,7 @@ address {
   position: absolute;
 }
 
-.menu5 .menu_sub{
+.menu5 .menu_sub {
   width: 70px;
 }
 
@@ -128,10 +127,9 @@ address {
   color: white;
 }
 
-.menu1>ul>li>a {
+.menu1 > ul > li > a {
   font-weight: 500;
 }
-
 
 .menu2 {
   width: 100px;
@@ -146,10 +144,9 @@ address {
   color: white;
 }
 
-.menu2>ul>li>a {
+.menu2 > ul > li > a {
   font-weight: 500;
 }
-
 
 .menu3 {
   width: 150px;
@@ -164,10 +161,9 @@ address {
   color: white;
 }
 
-.menu3>ul>li>a {
+.menu3 > ul > li > a {
   font-weight: 500;
 }
-
 
 .menu4 {
   width: 100px;
@@ -182,7 +178,7 @@ address {
   color: white;
 }
 
-.menu4>ul>li>a {
+.menu4 > ul > li > a {
   font-weight: 500;
 }
 
@@ -191,7 +187,7 @@ address {
   float: left;
 }
 
-.menu5>ul>li>a {
+.menu5 > ul > li > a {
   width: 60px;
   font-weight: 500;
   text-align: center;
@@ -214,7 +210,6 @@ address {
   float: left;
   margin-top: 40px;
   margin-left: 0;
-
 }
 
 .menu_sub a {
@@ -223,22 +218,24 @@ address {
   display: block;
 }
 
-.menu_sub a:after { 
-  display:block;
-  content: '';
-  border-bottom: solid 3px #faba18;  
-  transform: scaleX(0);  
+.menu_sub a:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #faba18;
+  transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
 
-.menu_sub>li>a:hover:after { transform: scaleX(1); }
+.menu_sub > li > a:hover:after {
+  transform: scaleX(1);
+}
 
-.menu_sub>li>a:after{ transform-origin:0% 50%; }
-
-
+.menu_sub > li > a:after {
+  transform-origin: 0% 50%;
+}
 
 /*** main ***/
-.content{
+.content {
   position: relative;
   z-index: 1;
 }
@@ -257,7 +254,7 @@ address {
   width: 1142px;
   margin: 0 auto 70px;
   padding-top: 243px;
-clear: both;
+  clear: both;
 }
 
 .top_name {
@@ -276,7 +273,6 @@ clear: both;
   color: #fff;
   font-size: 18px;
   float: left;
-
 }
 
 .menu_search {
@@ -295,7 +291,7 @@ label {
   display: none;
 }
 
-fieldset{
+fieldset {
   background-color: #fff;
   border: 1px solid #fff;
   border-radius: 50px;
@@ -310,7 +306,6 @@ fieldset{
   margin-bottom: 60px;
   top: -20px;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
-
 }
 
 #menu {
@@ -340,7 +335,6 @@ fieldset{
 .menu_wrap {
   width: 1200px;
   margin: 40px auto 80px;
-
 }
 
 .menu_wrap h2 {
@@ -350,32 +344,30 @@ fieldset{
 }
 
 .menu_sel {
-position: relative;
-
+  position: relative;
 }
 
 .sel_btn {
-width: 130px;
-height: 45px;
-border: 3px solid#1f1fb2;
-background-color: #fff;
-border-radius: 50px;
-float: left;
-margin-right: 20px;
-margin-bottom: 30px;
-display: block;
-font-size: 18px;
-font-weight: 500;
-color: #1f1fb2;
-text-align: center;
-line-height: 2.6;
-cursor: pointer;
+  width: 130px;
+  height: 45px;
+  border: 3px solid#1f1fb2;
+  background-color: #fff;
+  border-radius: 50px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1f1fb2;
+  text-align: center;
+  line-height: 2.6;
+  cursor: pointer;
 }
 
 .menu {
   width: 1200px;
-  }
-
+}
 
 .menu_scroll {
   width: 200px;
@@ -385,7 +377,6 @@ cursor: pointer;
   padding-top: 20px;
 }
 
-
 .menu_scroll span {
   float: left;
   margin-right: 8px;
@@ -394,7 +385,7 @@ cursor: pointer;
 .menu_btn {
   width: 20px;
   height: 20px;
-  border: 1px solid #fff;;
+  border: 1px solid #fff;
   border-radius: 50px;
   background-color: #eaeaea;
   margin-left: 12px;
@@ -403,9 +394,9 @@ cursor: pointer;
 }
 
 .menu_list {
-clear: both;
-width: 1200px;
-margin: auto;
+  clear: both;
+  width: 1200px;
+  margin: auto;
 }
 
 .product1 {
@@ -420,7 +411,6 @@ margin: auto;
   position: relative;
 }
 
-
 .product2 {
   width: 284px;
   height: 320px;
@@ -431,9 +421,7 @@ margin: auto;
   float: left;
   display: block;
   position: relative;
-
 }
-
 
 .product3 {
   width: 284px;
@@ -445,7 +433,6 @@ margin: auto;
   float: left;
   display: block;
   position: relative;
-
 }
 
 .product4 {
@@ -460,7 +447,6 @@ margin: auto;
   position: relative;
 }
 
-
 .product5 {
   width: 284px;
   height: 320px;
@@ -470,7 +456,6 @@ margin: auto;
   float: left;
   display: block;
   position: relative;
-
 }
 
 .product6 {
@@ -505,22 +490,22 @@ margin: auto;
   position: relative;
 }
 
-.menu_list img{
+.menu_list img {
   width: 212px;
   margin: 44px 36px 10px;
 }
 
-.name .ko{
-  font-size:18px;
+.name .ko {
+  font-size: 18px;
   font-weight: 500;
   color: #000;
   margin-top: 5px;
-  margin-left: 20px; 
+  margin-left: 20px;
   position: absolute;
 }
 
-.name .en{
-  font-size:14px;
+.name .en {
+  font-size: 14px;
   font-weight: 300;
   color: #000;
   margin-left: 20px;
@@ -540,7 +525,6 @@ margin: auto;
   bottom: 32px;
 }
 
-
 /*** footer ***/
 
 footer {
@@ -548,7 +532,6 @@ footer {
   background-color: #050505;
   height: 400px;
   color: #fff;
-
 }
 
 footer a {
@@ -583,18 +566,15 @@ footer a {
   float: left;
   margin-top: 92px;
   margin-right: 80px;
-
 }
 
 .term2 {
   float: left;
   margin-top: 92px;
   margin-right: 80px;
-
 }
 
 .term3 {
   float: left;
   margin-top: 92px;
-
 }
