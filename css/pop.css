@@ -1,0 +1,89 @@
+.pop {
+  position: fixed;
+  top: 0;
+  left: 0%;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+}
+.pop_box {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  width: 430px;
+  height: 200px;
+  translate: (-50%, -50%);
+  z-index: 100;
+  background: #fff;
+}
+
+.pop_cont {
+  padding: 40px;
+  font-size: 14px;
+}
+
+.pop_cont h2 {
+  font-size: 16px;
+  color: #1f1fb2;
+  margin-bottom: 20px;
+}
+
+.pop_btn {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 50px;
+  background: #141452;
+}
+
+.pop_btn a {
+  position: relative;
+  display: table-cell;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  background: #000000;
+}
+
+.pop_btn a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 14px;
+  right: 29px;
+  width: 1px;
+  height: 21px;
+  background: #fff;
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.pop_btn a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 14px;
+  right: 29px;
+  width: 1px;
+  height: 21px;
+  background: #fff;
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.pop_btn a.close_today {
+  background: rgb(88, 88, 88);
+}
+
+.pop_btn a.close_today:before,
+.pop_btn a.close_today:after {
+  display: none;
+}

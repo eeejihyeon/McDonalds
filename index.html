@@ -5,13 +5,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/pop.css">
   <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
   <script type="text/javascript" src="js/jquery.bxslider.js"></script>
   <title>McDonald's</title>
+
+  <script src="js/pop.js" defer></script>
 </head>
 
 <body>
+  <div class="pop" id="pop">
+    <div class="pop_box">
+      <div class="pop_cont">
+        <h2>저작권 관련 공지사항</h2>
+        <p>본 사이트는 상업적인 목적이 아닌 개인 포트폴리오 용도로 제작되었습니다. 홈페이지의 일부 내용과 이미지 등의 저작권은 출처인 맥도날드에 있음을 밝힙니다.</p>
+      </div>
+      <div class="pop_btn">
+        <a id="today" href="javascript:closeToday();" class="close_today">오늘 하루 보지 않기</a>
+        <a href="javascript:closePop();">닫기</a>
+      </div>
+    </div>
+  </div>
+
   <header id="header" class="header">
     <div class="header_wrap">
       <h1 class="logo"><a href="index.html">McDonald's</a></h1>
@@ -333,8 +349,10 @@
             </fieldset>
           </form>
         </div>
+        <div class="store_result">
 
-        <p class="store_search_result">검색결과</p>
+          <p class="store_search_result">검색결과</p>
+        </div>
       </section>
     </div>
 
