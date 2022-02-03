@@ -90,14 +90,21 @@ $(document).ready(function () {
   $(".nl_2").hide();
   $(".nb_next").click(function () {
     $('.nl_1').hide();
-    $('.nl_2').show();
-  })
+    $('.nl_2').fadeIn();
+  });
   $(".nb_prev").click(function () {
     $('.nl_2').hide();
-    $('.nl_1').show();
+    $('.nl_1').fadeIn();
 
 
-  })
+  });
+
+  // $('.burger_list').bxSlider({
+  //     minSlides : 5,
+  //     maxSlides : 5, 
+  //     moveSlides : 1,
+  //     slideWidth : 120
+  //   });
 
 
   // promotion
